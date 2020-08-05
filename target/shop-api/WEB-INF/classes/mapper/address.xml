@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fh.dao.AddressDao">
+    <select id="findAllPeo" parameterType="int" resultType="com.fh.entity.po.Address">
+        select * from t_address where vipId=#{vipId}
+    </select>
+
+    <insert id="addAddress" parameterType="com.fh.entity.po.Address">
+        insert into t_address(vipId,name,dateilAdd,areaIds,iphone,isCheck,createDate,
+        area,province,provinceName) values
+        (#{vipId},#{name},#{dateilAdd},#{areaIds},#{iphone},#{isCheck},#{createDate},
+        #{area},#{province},#{provinceName})
+    </insert>
+</mapper>

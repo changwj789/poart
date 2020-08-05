@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fh.dao.VipDao">
+    <insert id="addVip" parameterType="com.fh.entity.po.Vip">
+        insert into t_vip(name,image,createTime,area,phoneNum,areaNames) values
+        (#{name},#{image},#{createTime},#{area},#{phoneNum},#{areaNames})
+    </insert>
+
+    <select id="findVipByPhone" parameterType="java.lang.String" resultType="com.fh.entity.po.Vip">
+        select * from t_vip where phoneNum=#{iphone}
+    </select>
+</mapper>

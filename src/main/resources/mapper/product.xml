@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fh.dao.ProductDao">
+    <select id="findAllProduct" parameterType="Long" resultType="com.fh.entity.po.Product">
+        select *from t_product tp left join t_category tc ON tp.categoryId=tc.id
+
+        <if test="id!=null">
+            WHERE tc.id=#{id}
+        </if>
+    </select>
+
+    <select id="findIsHotProduct" resultType="com.fh.entity.po.Product">
+        select * from t_product where isHot=1
+    </select>
+
+    <select id="finProductById" resultType="com.fh.entity.po.Product">
+        select * from t_product where id=#{id}
+    </select>
+    <select id="finProductById2" resultType="com.fh.entity.po.Product">
+        select * from t_product where id=#{id}
+    </select>
+    <update id="updatProduct" parameterType="com.fh.entity.po.Product">
+        update t_product set stock=#{stock} where id=#{id}
+    </update>
+
+    <update id="updateProductStock">
+        update t_product set stock=stock-#{count} where id=#{id} and stock-#{count}>=0;
+
+    </update>
+</mapper>

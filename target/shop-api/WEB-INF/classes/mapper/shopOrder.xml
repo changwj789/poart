@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fh.dao.ShopOrderDao">
+  <insert id="addShopOrder" parameterType="com.fh.entity.po.ShopOrder">
+      insert into shop_order (vipId,addressId,payType,productCount,totalmoney,payStatus,carateDate)
+      values (#{vipId},#{addressId},#{payType},#{productCount},#{totalmoney},#{payStatus},#{carateDate})
+  </insert>
+
+    <update id="updatePayStatus" parameterType="int">
+        update shop_order set payStatus=1 where id=#{orderId}
+    </update>
+
+    <select id="findMyOrder" parameterType="int" resultType="com.fh.entity.po.ShopOrder">
+        select * from shop_order where vipId=#{id}
+    </select>
+</mapper>

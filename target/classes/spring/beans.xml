@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+  <!-- 注解方式 注入 -->
+   <!-- 扫描包路径 识别   @service  -->
+    <context:component-scan base-package="com.fh.service"/>
+
+
+	<!-- 加载属性文件-->
+	<context:property-placeholder location="classpath:db.properties"/>
+	<!-- 1、创建数据源 -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="driverClass" value="${jdbc.driverClassName}"/>
+		<property name="jdbcUrl" value="${jdbc.dbcp.url}"/>
+		<property name="user" value="${jdbc.username}"/>
+		<property name="password" value="${jdbc.password}"/>
+	</bean>
+
+	<!--  配置mybatis sqlSessionFactory-->
+	<!--生成sqlSession -->
+	<!--mybatis配置-->
+	<!--<bean id="sqlSession" class="org.mybatis.spring.SqlSessionFactoryBean">-->
+	<!--mybatis-plus配置-->
+	<bean id="sqlSession" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<!--  自动查找myBatis的xml配置文件，省掉sqlMapConfig.xml里的mappers手工配置 -->
+		<property name="mapperLocations" value="classpath:mapper/*.xml" />
+
+	</bean>
+	<!-- 通过 MapperScannerConfigurer自动扫描指定basePackage中的所有的接口，并且
+      把sqlSession与接口结合-->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.fh.dao" />
+		<property name="sqlSessionFactoryBeanName" value="sqlSession" />
+	</bean>
+	<bean id="t" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"/>
+	</bean>
+	<!-- 配置事务的传播特性 -->
+	<tx:advice id="a" transaction-manager="t"><!-- 配置事务管理器 -->
+		<tx:attributes>
+			<tx:method name="add*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="insert*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="save*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="del*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="batch*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="update*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="udpate*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="import*" propagation="REQUIRED" rollback-for="Exception"/>
+			<tx:method name="*" read-only="true"/>
+			<!-- 如果不是以上三种，则配置成只读事务(如select)。只读事务可以提高性能，当更新某个对象时，将不会再做脏数据检查。(因为是只读的并不用更新，所以不用再作比较,判断是否读取到脏数据。) -->
+		</tx:attributes>
+	</tx:advice>
+	<!-- .. 代表改包下任意嵌套层次的子包 -->
+	<aop:config>
+		<aop:advisor pointcut="execution(* com.fh.service..*.*(..))" advice-ref="a"/>
+	</aop:config>
+
+</beans>
