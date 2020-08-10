@@ -42,6 +42,7 @@ public class CartServiceImp implements CartService {
         ProductCart productCart=cartDao.queryProductById(id);
         productCart.setCheck(true);
         productCart.setCount(count);
+       // product.setStock(8);
         //计算money
         BigDecimal money = productCart.getPrice().multiply(new BigDecimal(count));
         productCart.setMoney(money);

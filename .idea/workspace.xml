@@ -6,7 +6,256 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8220dbd5-b5a7-4cd0-9f57-63001341950a" name="Default Changelist" comment="" />
+    <list default="true" id="8220dbd5-b5a7-4cd0-9f57-63001341950a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fh/service/impl/CartServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fh/service/impl/CartServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fh/service/impl/ShopOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fh/service/impl/ShopOrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/common/ControllerException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/common/PayStatusEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/common/RedisType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/common/ResponseEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/common/ServerResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/common/exception/CountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/common/exception/NoLoginException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/common/interceptor/KuaYuInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/common/interceptor/LoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/controller/AddressController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/controller/AreaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/controller/BrandController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/controller/ShopOrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/controller/VipController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/controller/cartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/dao/AddressDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/dao/AreaDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/dao/CartDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/dao/IBrandDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/dao/ICategoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/dao/OrderProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/dao/ProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/dao/ShopOrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/dao/VipDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/entity/po/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/entity/po/Area.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/entity/po/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/entity/po/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/entity/po/OrderProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/entity/po/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/entity/po/ShopOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/entity/po/Vip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/entity/vo/ProductCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/AddressService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/AddressServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/AreaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/CartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/IBrandService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/ICategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/ShopOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/VipService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/impl/AreaServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/impl/CartServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/impl/IBrandServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/impl/ICategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/impl/ProduvtServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/impl/ShopOrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/service/impl/VipServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/util/JWT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/util/JedisUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/util/OssUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/util/RedisUse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/util/RedisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/util/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/util/TestMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/util/TestWeiPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fh/util/WxUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/FeiConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/FeiConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/IWXPayDomain$DomainInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/IWXPayDomain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/WXPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/WXPayConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/WXPayConstants$SignType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/WXPayConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/WXPayReport$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/WXPayReport$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/WXPayReport$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/WXPayReport$ReportInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/WXPayReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/WXPayRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/WXPayUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/wxpay/sdk/WXPayXmlUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/address.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/area.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/brand.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/cart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/category.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/orderProduct.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/product.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/shopOrder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/vip.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/common/ControllerException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/common/PayStatusEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/common/RedisType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/common/ResponseEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/common/ServerResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/common/exception/CountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/common/exception/NoLoginException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/common/interceptor/KuaYuInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/common/interceptor/LoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/controller/AddressController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/controller/AreaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/controller/BrandController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/controller/ShopOrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/controller/VipController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/controller/cartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/dao/AddressDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/dao/AreaDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/dao/CartDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/dao/IBrandDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/dao/ICategoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/dao/OrderProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/dao/ProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/dao/ShopOrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/dao/VipDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/entity/po/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/entity/po/Area.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/entity/po/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/entity/po/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/entity/po/OrderProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/entity/po/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/entity/po/ShopOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/entity/po/Vip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/entity/vo/ProductCart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/AddressService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/AddressServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/AreaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/CartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/IBrandService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/ICategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/ShopOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/VipService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/impl/AreaServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/impl/CartServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/impl/IBrandServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/impl/ICategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/impl/ProduvtServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/impl/ShopOrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/service/impl/VipServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/util/JWT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/util/JedisUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/util/OssUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/util/RedisUse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/util/RedisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/util/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/util/TestMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/util/TestWeiPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/fh/util/WxUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/FeiConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/FeiConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/IWXPayDomain$DomainInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/IWXPayDomain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/WXPay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/WXPayConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/WXPayConstants$SignType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/WXPayConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/WXPayReport$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/WXPayReport$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/WXPayReport$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/WXPayReport$ReportInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/WXPayReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/WXPayRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/WXPayUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/com/github/wxpay/sdk/WXPayXmlUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/mapper/address.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/mapper/area.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/mapper/brand.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/mapper/cart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/mapper/category.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/mapper/orderProduct.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/mapper/product.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/mapper/shopOrder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/mapper/vip.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/spring/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/aliyun-java-sdk-core-4.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/aliyun-java-sdk-ecs-4.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/aliyun-java-sdk-kms-2.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/aliyun-java-sdk-ram-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/aliyun-java-sdk-sts-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/aliyun-sdk-oss-3.10.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/aspectjweaver-1.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/c3p0-0.9.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/commons-fileupload-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/commons-lang3-3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/fastjson-1.2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/gson-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/httpclient-4.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/httpcore-4.4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/ini4j-0.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/jackson-annotations-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/jackson-core-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/jackson-databind-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/java-jwt-2.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/jdom2-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/jettison-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/jsqlparser-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/junit-4.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/mchange-commons-java-0.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/mybatis-3.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/mybatis-plus-3.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/mybatis-plus-annotation-3.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/mybatis-plus-core-3.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/mybatis-plus-extension-3.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/mybatis-spring-2.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/mysql-connector-java-5.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/opentracing-api-0.33.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/opentracing-noop-0.33.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/opentracing-util-0.33.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/org.jacoco.agent-0.8.5-runtime.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/poi-3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/poi-ooxml-3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/poi-ooxml-schemas-3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/servlet-api-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/slf4j-api-1.7.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/spring-aop-4.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/spring-beans-4.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/spring-context-4.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/spring-core-4.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/spring-expression-4.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/spring-jdbc-4.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/spring-orm-4.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/spring-tx-4.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/spring-web-4.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/spring-webmvc-4.3.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/lib/xmlbeans-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/shop-api/index.jsp" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,49 +268,52 @@
     <session id="1945794512">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="8" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.3" value="5" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.4" value="5" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="47" />
-          <entry key="java" value="500" />
+          <entry key="java" value="522" />
           <entry key="properties" value="8" />
-          <entry key="xml" value="156" />
+          <entry key="xml" value="165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="47" />
-          <entry key="JAVA" value="500" />
+          <entry key="JAVA" value="522" />
           <entry key="Properties" value="8" />
-          <entry key="XML" value="156" />
+          <entry key="XML" value="165" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="java" value="14227" />
+          <entry key="java" value="14236" />
           <entry key="properties" value="27" />
           <entry key="xml" value="1719" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14227" />
+          <entry key="JAVA" value="14236" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="Properties" value="27" />
           <entry key="SQL" value="15" />
@@ -73,34 +325,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/ShopOrderController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/util/WxUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/impl/ShopOrderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="21">
+              <caret line="12" column="52" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/ShopOrderService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/cartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="231">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/impl/IBrandServiceImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/impl/CartServiceImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/util/TestMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -126,6 +390,9 @@
     <replaceStrings>
       <replace>a</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -165,7 +432,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fh/dao/ProductDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/util/RedisUse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/common/ControllerException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/service/impl/CartServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/github/wxpay/sdk/WXPay.java" />
         <option value="$PROJECT_DIR$/src/main/java/github/wxpay/sdk/WXPay.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/util/TestWeiPay.java" />
@@ -174,13 +440,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fh/util/WxUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/dao/ShopOrderDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/shopOrder.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fh/service/impl/ShopOrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/service/ShopOrderService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/product.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/controller/ShopOrderController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fh/common/exception/NoLoginException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fh/service/impl/ShopOrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fh/service/impl/CartServiceImp.java" />
       </list>
     </option>
   </component>
@@ -219,13 +486,13 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="shop-api Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1386" />
@@ -236,8 +503,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,39 +553,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="fh" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fh" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fh" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fh" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shop-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fh" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop-api" type="b2602c69:ProjectViewProjectNode" />
@@ -342,17 +585,6 @@
               <item name="fh" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
               <item name="po" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shop-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fh" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shop-api" type="b2602c69:ProjectViewProjectNode" />
@@ -418,23 +650,22 @@
             <path>
               <item name="shop-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596613906360" />
-    <property name="last_opened_file_path" value="E:/飞狐/六/实训二/day6/shop-admin" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597026795975" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -681,6 +912,12 @@
       <workItem from="1596501318685" duration="13508000" />
       <workItem from="1596587506418" duration="1664000" />
       <workItem from="1596608596395" duration="2450000" />
+      <workItem from="1596671955714" duration="12653000" />
+      <workItem from="1596758859988" duration="18000" />
+      <workItem from="1596870735772" duration="451000" />
+      <workItem from="1596881212522" duration="297000" />
+      <workItem from="1596945982740" duration="831000" />
+      <workItem from="1597020657862" duration="1139000" />
     </task>
     <servers />
   </component>
@@ -717,13 +954,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315778000" />
+    <option name="totallyTimeSpent" value="331167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="-10" width="1386" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27073908" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29713425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -733,8 +970,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33944955" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2584098" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48698315" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.16232772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -745,7 +982,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.33027524" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -764,34 +1001,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/util/TestWeiPay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/util/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repositoryLocal/org/springframework/spring-tx/4.3.6.RELEASE/spring-tx-4.3.6.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/dao/OrderProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/util/RedisUse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -810,27 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="180" selection-start-line="180" selection-end-line="180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/util/WxUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/orderProduct.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/shopOrder.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -858,13 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/ICategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -882,13 +1063,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-698" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/dao/ShopOrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -974,55 +1148,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/CartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/product.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/dao/CartDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/cart.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/impl/CartServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/java1/jdk1.8.0_131/src.zip!/java/lang/Throwable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="263" column="11" selection-start-line="263" selection-start-column="11" selection-end-line="263" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/common/ControllerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,10 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
           <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-          <folding>
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,16 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/util/TestMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1072,9 +1187,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="e#891#892#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/common/ControllerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/wxpay/sdk/WXPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/ShopOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/dao/ShopOrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/orderProduct.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/AddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/dao/CartDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/ShopOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/shopOrder.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1085,44 +1267,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/cartController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/CartService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="84">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/AddressController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="252">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/ShopOrderService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/cart.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/ShopOrderController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/product.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/dao/OrderProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="89" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/impl/ShopOrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="561">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/util/WxUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/util/TestMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/controller/cartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/impl/IBrandServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fh/service/impl/CartServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -172,6 +172,7 @@ public class ShopOrderServiceImpl implements ShopOrderService {
 
     @Override
     public void deleteOrder(Integer id) {
+
         shopOrderDao.deleteById(id);
     }
 }
